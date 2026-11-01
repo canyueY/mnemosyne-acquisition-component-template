@@ -1,0 +1,14 @@
+{
+  "illustrative_only": true,
+  "submission": {
+    "correlation_id": "synthetic-correlation-not-sent",
+    "idempotency_key": "synthetic-only:fictional-001:fixture-v1",
+    "observation_id": null,
+    "transport_state": "not_attempted",
+    "reason_codes": [
+      "TEMPLATE_NOT_IMPLEMENTED"
+    ]
+  },
+  "cognition": null,
+  "note": "No submitted Observation exists. Do not manufacture an ID or a cognition receipt."
+}

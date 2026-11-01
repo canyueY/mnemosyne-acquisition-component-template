@@ -1,0 +1,35 @@
+{
+  "source": {
+    "source_id": "example.unimplemented-source",
+    "record_id": "fictional-001",
+    "revision": "fixture-v1",
+    "content_hash": "4a86ef5d0da02225c3a2738a15ada57b5bae1e16c938f1a52b5d5ee9b394a730",
+    "source_role": "author_claim",
+    "uri": "https://example.invalid/fictional-001",
+    "root_source_id": null,
+    "locator": {
+      "paragraph": "1",
+      "page": null
+    }
+  },
+  "content": "【虚构测试材料】某位作者提出：这项方法可能有效，尚无验证。",
+  "coverage": {
+    "available_modalities": [
+      "text"
+    ],
+    "covered_ranges": [
+      "paragraph:1"
+    ],
+    "missing_ranges": [
+      "other paragraphs and non-text modalities not provided"
+    ],
+    "completeness": "partial"
+  },
+  "subject_id": "fictional-author",
+  "occurred_at": null,
+  "recorded_at": null,
+  "visibility": "unknown",
+  "metadata": {
+    "synthetic": true
+  }
+}

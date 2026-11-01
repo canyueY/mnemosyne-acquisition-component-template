@@ -1,0 +1,52 @@
+{
+  "source_kind": "system",
+  "content": "【虚构测试材料】某位作者提出：这项方法可能有效，尚无验证。",
+  "occurred_at": null,
+  "producer": "example.component-not-installed",
+  "subject_id": "fictional-author",
+  "correlation_id": "synthetic-correlation-not-sent",
+  "idempotency_key": "synthetic-only:fictional-001:fixture-v1",
+  "data_ref": null,
+  "metadata": {
+    "synthetic": true,
+    "domain": "example-unimplemented-domain",
+    "source_app": "example-unimplemented-source",
+    "source_record_id": "fictional-001",
+    "epistemic": "author_claim",
+    "source_ref": {
+      "source_id": "example.unimplemented-source:fictional-001",
+      "root_source_id": "fictional-untrusted-root",
+      "revision": "fixture-v1",
+      "content_hash": "4a86ef5d0da02225c3a2738a15ada57b5bae1e16c938f1a52b5d5ee9b394a730",
+      "source_role": "author_claim",
+      "bank_id": "example-bank-not-authorized",
+      "producer": "example.component-not-installed",
+      "locator": {
+        "paragraph": "1",
+        "page": null
+      }
+    },
+    "coverage": {
+      "available_modalities": [
+        "text"
+      ],
+      "covered_ranges": [
+        {
+          "paragraph": "1"
+        }
+      ],
+      "missing_ranges": [
+        {
+          "description": "other content not supplied"
+        }
+      ],
+      "completeness": "partial"
+    },
+    "policy": {
+      "allow_store": false,
+      "allow_forward": false,
+      "allow_train": false
+    },
+    "template_note": "Shape illustration only; not submitted; bank/grants must be enforced by the installed Node."
+  }
+}

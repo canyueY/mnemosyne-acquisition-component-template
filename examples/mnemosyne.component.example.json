@@ -1,0 +1,30 @@
+{
+  "component_id": "template.replace-me",
+  "name": "Acquisition Component Template — NOT RUNNABLE",
+  "version": "0.1.0",
+  "type": "adapter",
+  "provider": "community",
+  "interfaces": {
+    "provides": [],
+    "requires": []
+  },
+  "protocols": [
+    "mnemosyne-component-v1"
+  ],
+  "permissions": [],
+  "banks": [],
+  "compatibility": {
+    "mnemosyne": ">=2.0.0"
+  },
+  "lifecycle": {
+    "health_check": false,
+    "config_schema": false
+  },
+  "metadata": {
+    "template_only": true,
+    "implemented": false,
+    "automatic_start": false,
+    "compatibility_evidence": "manifest shape only; no live integration",
+    "instructions": "Copy and rename only in a derived component; declare capabilities after implementation."
+  }
+}

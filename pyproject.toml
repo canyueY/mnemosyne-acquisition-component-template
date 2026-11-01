@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mnemosyne-acquisition-component-template"
+version = "0.1.0"
+description = "Inert, source-agnostic development template for future Mnemosyne acquisition components"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "canyueY" }]
+dependencies = []
+keywords = ["mnemosyne", "template", "acquisition", "component", "agent"]
+
+# Deliberately no CLI, server, plugins, automatic startup or runtime dependency.
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mnemosyne_acquisition_template = ["py.typed"]

@@ -1,0 +1,26 @@
+{
+  "status": "declarative_only",
+  "implemented": false,
+  "automatic_acquisition_enabled": false,
+  "network_allowed": false,
+  "connection": {
+    "base_url": null,
+    "api_prefix": "/api/v1",
+    "credential_reference": null,
+    "bank_id": null,
+    "authorization_reference": null
+  },
+  "source": {
+    "source_id": null,
+    "access_method": null,
+    "requested_scopes": [],
+    "authorization_reference": null
+  },
+  "granted_permissions": [],
+  "policy": {
+    "allow_store": false,
+    "allow_forward": false,
+    "allow_train": false
+  },
+  "notes": "This template does not read this file. Grants must be verified at runtime in a derived component."
+}

@@ -1,0 +1,50 @@
+{
+  "policy_version": "acquisition-need-draft-v1",
+  "status": "declarative_only",
+  "implemented": false,
+  "automatic_search_enabled": false,
+  "suggested_profile_for_derivatives": {
+    "minimum_task_relevance": 0.7,
+    "minimum_gap_score": 0.6,
+    "gap_weights": {
+      "coverage_gap": 0.35,
+      "evidence_gap": 0.3,
+      "contradiction": 0.2,
+      "staleness": 0.15
+    },
+    "task_triggers": [
+      "explicit_research_request",
+      "blocking_evidence_gap"
+    ],
+    "mandatory_gates": [
+      "source_authorization",
+      "network_tool_authorization",
+      "public_query_only",
+      "budget_available",
+      "not_in_cooldown"
+    ],
+    "unknown_signal_action": "needs_input",
+    "threshold_action": "suggest",
+    "limits": {
+      "max_search_rounds": 2,
+      "max_results_per_round": 5,
+      "max_document_fetches": 3,
+      "max_total_network_requests": 5,
+      "max_wall_seconds": 30,
+      "max_retained_characters": 16000,
+      "cooldown_seconds": 600,
+      "allow_paid_providers": false
+    },
+    "stop_conditions": [
+      "task_scope_sufficient",
+      "budget_exhausted",
+      "one_round_without_new_relevant_source",
+      "repeated_same_origin",
+      "authorization_revoked",
+      "source_refused"
+    ],
+    "private_text_in_public_query": false,
+    "unknown_cost_handling": "unknown_not_zero"
+  },
+  "notes": "No policy evaluator or search executor is included. Scores concern information need, never truth confidence."
+}
